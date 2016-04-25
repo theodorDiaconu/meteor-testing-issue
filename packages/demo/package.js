@@ -20,5 +20,5 @@ Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('app:demo');
-  api.mainModule('demo-tests.js');
+  api.mainModule('tests/demo-tests.js');
 });
